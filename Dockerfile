@@ -1,4 +1,4 @@
-FROM judge0/compilers:1.4.0 AS production
+FROM docker.io/judge0/compilers:1.4.0 AS production
 
 ENV JUDGE0_HOMEPAGE "https://judge0.com"
 LABEL homepage=$JUDGE0_HOMEPAGE
